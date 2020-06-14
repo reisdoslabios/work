@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+}
+
+#p1{
+
+}
+
+#p2{
+
+}
+
+#p3{
+
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .Desktop-4{
+    float: left;
+    }
+    .Desktop-4 {
+      width: 33.33%;
+    }
+}  
+/********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .Tablet-4{float: left;
+    }
+    .Tablet-4 {
+      width: 33.33%;
+    }
+}
+/********** Small devices only **********/  
+@media (max-width: 767px){
+  .Tablet-4{float: left;
+  }
+      .Tablet-4 {
+        width: 33.33%;
+      }
+      
+}
